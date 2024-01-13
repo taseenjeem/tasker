@@ -4,12 +4,14 @@ import { FaTrashAlt } from "react-icons/fa";
 const ActionButtons = () => {
   return (
     <div>
+      {/* New task adding modal button */}
       <button
         className="btn btn-neutral"
         onClick={() => document.getElementById("my_modal_5").showModal()}
       >
         <IoAddCircle className="text-xl" /> Add Task
       </button>
+      {/* Task adding modal */}
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>
@@ -25,6 +27,7 @@ const ActionButtons = () => {
         </div>
       </dialog>
 
+      {/* Delete all task button */}
       <button className="btn btn-accent ml-2">
         <FaTrashAlt className="text-lg" /> Delete All Tasks
       </button>
