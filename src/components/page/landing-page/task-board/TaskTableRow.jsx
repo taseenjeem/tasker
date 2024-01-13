@@ -1,4 +1,5 @@
 import { FaStar } from "react-icons/fa6";
+import TaskEditButton from "./TaskEditButton";
 
 const TaskTableRow = () => {
   return (
@@ -16,12 +17,10 @@ const TaskTableRow = () => {
       </td>
       <td>High</td>
       <td>
-        <button className="font-semibold underline underline-offset-2 text-accent">
+        <button className="font-semibold underline underline-offset-2 text-accent mr-2">
           Delete
         </button>
-        <button className="font-semibold underline underline-offset-2 text-primary ml-2">
-          Edit
-        </button>
+        <TaskEditButton />
       </td>
     </tr>
   );
