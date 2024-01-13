@@ -3,7 +3,7 @@ import heroImg from "../../../assets/hero.svg";
 
 const HeroSection = () => {
   return (
-    <section className="hero min-h-screen">
+    <section className="hero min-h-[90vh]">
       <div className="flex justify-center items-center gap-4 max-w-[80rem] flex-col lg:flex-row-reverse">
         <img src={heroImg} className="lg:max-w-lg rounded-lg drop-shadow-2xl" />
         <div className="lg:w-1/2">
