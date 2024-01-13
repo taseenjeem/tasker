@@ -1,5 +1,5 @@
-import { FaTrashAlt } from "react-icons/fa";
 import AddTaskModalBtn from "./AddTaskModalBtn";
+import DeleteAllTasksBtn from "./DeleteAllTasksBtn";
 
 const ActionButtons = () => {
   return (
@@ -8,9 +8,7 @@ const ActionButtons = () => {
       <AddTaskModalBtn />
 
       {/* Delete all task button */}
-      <button className="btn btn-accent ml-2">
-        <FaTrashAlt className="text-lg" /> Delete All Tasks
-      </button>
+      <DeleteAllTasksBtn />
     </div>
   );
 };
