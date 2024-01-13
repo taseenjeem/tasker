@@ -1,5 +1,5 @@
 import { FaArrowDown } from "react-icons/fa";
-import heroImg from "../../../assets/hero.svg";
+import heroImg from "../../../../assets/hero.svg";
 
 const HeroSection = () => {
   return (

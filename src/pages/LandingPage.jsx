@@ -1,4 +1,4 @@
-import HeroSection from "../components/page/landing-page/HeroSection";
+import HeroSection from "../components/page/landing-page/hero-section/HeroSection";
 
 const LandingPage = () => {
   return (
